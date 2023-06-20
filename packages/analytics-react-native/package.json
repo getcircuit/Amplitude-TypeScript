@@ -61,7 +61,7 @@
     "@getcircuit/amplitude-analytics-client-common": "^2.1.0-beta.0",
     "@getcircuit/amplitude-analytics-core": "^2.1.0-beta.0",
     "@getcircuit/amplitude-analytics-types": "^2.1.0-beta.0",
-    "@getcircuit/amplitude-ua-parser-js": "^0.7.31",
+    "@amplitude/ua-parser-js": "^0.7.31",
     "@react-native-async-storage/async-storage": "^1.17.11",
     "tslib": "^2.4.1"
   },
