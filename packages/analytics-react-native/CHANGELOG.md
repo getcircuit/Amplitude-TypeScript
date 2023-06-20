@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.2](https://github.com/amplitude/Amplitude-TypeScript/compare/@getcircuit/amplitude-analytics-react-native@2.0.0-beta.1...@getcircuit/amplitude-analytics-react-native@2.0.0-beta.2) (2023-06-20)
+
+### Bug Fixes
+
+- deps trying to use non-existent [@getcircuit](https://github.com/getcircuit) versions of unchanged packages
+  ([2da505d](https://github.com/amplitude/Amplitude-TypeScript/commit/2da505deaf4501201d7cf3ed33d0653e2e422b8f))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # 2.0.0-beta.1 (2023-06-20)
 
 ### Bug Fixes

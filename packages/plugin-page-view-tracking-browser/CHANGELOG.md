@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0-beta.1](https://github.com/amplitude/Amplitude-TypeScript/compare/@getcircuit/amplitude-plugin-page-view-tracking-browser@2.1.0-beta.0...@getcircuit/amplitude-plugin-page-view-tracking-browser@2.1.0-beta.1) (2023-06-20)
+
+**Note:** Version bump only for package @getcircuit/amplitude-plugin-page-view-tracking-browser
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # 2.1.0-beta.0 (2023-06-20)
 
 ### Bug Fixes
