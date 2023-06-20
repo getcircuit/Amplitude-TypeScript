@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.70.6",
-    "@amplitude/analytics-react-native": "0.7.0",
+    "@getcircuit/amplitude-analytics-react-native": "0.7.0",
     "@react-native-async-storage/async-storage": "1.17.11"
   },
   "devDependencies": {
