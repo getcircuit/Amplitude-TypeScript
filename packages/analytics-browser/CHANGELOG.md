@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0-beta.2](https://github.com/amplitude/Amplitude-TypeScript/compare/@getcircuit/amplitude-analytics-browser@2.1.0-beta.1...@getcircuit/amplitude-analytics-browser@2.1.0-beta.2) (2023-06-20)
+
+### Bug Fixes
+
+- changed dependency names imports
+  ([7a43e93](https://github.com/amplitude/Amplitude-TypeScript/commit/7a43e93735f780df6740a031117344bcaac05bc7))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.1.0-beta.1](https://github.com/amplitude/Amplitude-TypeScript/compare/@getcircuit/amplitude-analytics-browser@2.1.0-beta.0...@getcircuit/amplitude-analytics-browser@2.1.0-beta.1) (2023-06-20)
 
 **Note:** Version bump only for package @getcircuit/amplitude-analytics-browser
