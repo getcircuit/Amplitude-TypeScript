@@ -1,6 +1,6 @@
 {
   "name": "@getcircuit/amplitude-analytics-client-common",
-  "version": "2.0.0",
+  "version": "2.1.0-beta.0",
   "description": "",
   "author": "Amplitude Inc",
   "homepage": "https://github.com/amplitude/Amplitude-TypeScript",
@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@getcircuit/amplitude-analytics-connector": "^1.4.8",
-    "@getcircuit/amplitude-analytics-core": "^2.0.0",
-    "@getcircuit/amplitude-analytics-types": "^2.0.0",
+    "@getcircuit/amplitude-analytics-core": "^2.1.0-beta.0",
+    "@getcircuit/amplitude-analytics-types": "^2.1.0-beta.0",
     "tslib": "^2.4.1"
   },
   "files": [

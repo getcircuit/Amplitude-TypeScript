@@ -3,6 +3,90 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.8.0-beta.1 (2023-06-20)
+
+### Bug Fixes
+
+- add callable queue when init is pending ([#181](https://github.com/amplitude/Amplitude-TypeScript/issues/181))
+  ([d8fc361](https://github.com/amplitude/Amplitude-TypeScript/commit/d8fc36195b96e2c10ccc5106027beaa7e970e0c0))
+- adds error handling for invalid api ([#153](https://github.com/amplitude/Amplitude-TypeScript/issues/153))
+  ([c03f9d7](https://github.com/amplitude/Amplitude-TypeScript/commit/c03f9d7dad51e3026673dca31418a74591d79bbc))
+- allow event level groups tracking ([#90](https://github.com/amplitude/Amplitude-TypeScript/issues/90))
+  ([3240660](https://github.com/amplitude/Amplitude-TypeScript/commit/3240660e94db9e5c5a1ce4280d07faced2b5fd4d))
+- allow option.serverUrl to be used in destination plugin
+  ([#104](https://github.com/amplitude/Amplitude-TypeScript/issues/104))
+  ([f353367](https://github.com/amplitude/Amplitude-TypeScript/commit/f353367b8b264f86b6ea15b15f30385f8d5b8ad5))
+- don't automatically start new session on setUserId
+  ([#427](https://github.com/amplitude/Amplitude-TypeScript/issues/427))
+  ([d40b5c3](https://github.com/amplitude/Amplitude-TypeScript/commit/d40b5c305e1d67d988e70608ba01789b8f0abb2b))
+- e2e tests hardcoded library version
+  ([c6caac6](https://github.com/amplitude/Amplitude-TypeScript/commit/c6caac64e0716d779c073d872e3745d5377868fe))
+- event types and properties for default events ([#341](https://github.com/amplitude/Amplitude-TypeScript/issues/341))
+  ([707522d](https://github.com/amplitude/Amplitude-TypeScript/commit/707522d440d5aa3be48809afcb44a4147f103903))
+- extend session on new events ([#432](https://github.com/amplitude/Amplitude-TypeScript/issues/432))
+  ([8bb049d](https://github.com/amplitude/Amplitude-TypeScript/commit/8bb049df4c6b99ff44303cf2aaeb7357ae90b362))
+- improper cookie usage ([#330](https://github.com/amplitude/Amplitude-TypeScript/issues/330))
+  ([e670091](https://github.com/amplitude/Amplitude-TypeScript/commit/e670091e59014bb35bd9b3ec2a7192f259393575))
+- inconsistent user and device id on session events
+  ([#337](https://github.com/amplitude/Amplitude-TypeScript/issues/337))
+  ([0dfbc6c](https://github.com/amplitude/Amplitude-TypeScript/commit/0dfbc6c78335a7578fc0207d91c1ef9845950f16))
+- invoke pre-init track fns after attribution ([#253](https://github.com/amplitude/Amplitude-TypeScript/issues/253))
+  ([b8996d7](https://github.com/amplitude/Amplitude-TypeScript/commit/b8996d793f74d388c1a96e0cde5c0ac060c1e565))
+- run queued functions after attribution in browser-client.ts
+  ([#249](https://github.com/amplitude/Amplitude-TypeScript/issues/249))
+  ([751b7ca](https://github.com/amplitude/Amplitude-TypeScript/commit/751b7ca6b0f05131dc932b89dd89e8979e334b4b))
+- sest sion end events being assigned to a different session id
+  ([#426](https://github.com/amplitude/Amplitude-TypeScript/issues/426))
+  ([7d52037](https://github.com/amplitude/Amplitude-TypeScript/commit/7d52037280159ddb176e5e1ef64577bd97edfc36))
+- simplify plugins and eliminate enums ([#407](https://github.com/amplitude/Amplitude-TypeScript/issues/407))
+  ([890ec66](https://github.com/amplitude/Amplitude-TypeScript/commit/890ec6695a8b25cd6988e9f7ae584d4ba2835f67))
+
+### Features
+
+- add attribution tracking for linkedin click id li_fat_id
+  ([ca81f3d](https://github.com/amplitude/Amplitude-TypeScript/commit/ca81f3d75ece7e0e23a1bc1b6889107d53a60a86))
+- add ingestion_metadata field ([#212](https://github.com/amplitude/Amplitude-TypeScript/issues/212))
+  ([ebe8448](https://github.com/amplitude/Amplitude-TypeScript/commit/ebe8448b23609134f846e18da2e769158ca30bf1))
+- add marketing campaign tracking ([#112](https://github.com/amplitude/Amplitude-TypeScript/issues/112))
+  ([bca73ed](https://github.com/amplitude/Amplitude-TypeScript/commit/bca73ede308ecb1663986a99600657732969d60c))
+- add rtd_cid for Reddit campaign tracking/attribution
+  ([784e080](https://github.com/amplitude/Amplitude-TypeScript/commit/784e080aa129c37e850d7f34115beb9770044e4e))
+- add session start/end event tracker ([#332](https://github.com/amplitude/Amplitude-TypeScript/issues/332))
+  ([e26cf15](https://github.com/amplitude/Amplitude-TypeScript/commit/e26cf15503c59d3b25bd54391bb330a8c634eca3))
+- add utm_id tracking ([#284](https://github.com/amplitude/Amplitude-TypeScript/issues/284))
+  ([f72dcf1](https://github.com/amplitude/Amplitude-TypeScript/commit/f72dcf1788ebc84544aaee1dc41b1d1ba6e4c06e))
+- allow opt out of deleting legacy sdk cookies
+  ([c6a82fb](https://github.com/amplitude/Amplitude-TypeScript/commit/c6a82fb52e1301e427116891d1f31208bcfc6548))
+- enhance logger with debug information ([#254](https://github.com/amplitude/Amplitude-TypeScript/issues/254))
+  ([5c6175e](https://github.com/amplitude/Amplitude-TypeScript/commit/5c6175e9372cbeea264ddb34c6cc68148063d4f7))
+- make default event tracking enabled by default ([#386](https://github.com/amplitude/Amplitude-TypeScript/issues/386))
+  ([242f42d](https://github.com/amplitude/Amplitude-TypeScript/commit/242f42dd2e46eaec95c827795e04f74fba39c35f))
+- make storage interface async to enable react-native
+  ([#122](https://github.com/amplitude/Amplitude-TypeScript/issues/122))
+  ([42bb39c](https://github.com/amplitude/Amplitude-TypeScript/commit/42bb39c967db015d5899487618d066f3540c9f18))
+- parse old cookies and convert to new format ([#85](https://github.com/amplitude/Amplitude-TypeScript/issues/85))
+  ([bda78be](https://github.com/amplitude/Amplitude-TypeScript/commit/bda78be5d2de335e7b1ff6da413b20d3dc751aca))
+- retrofit web attribution and page view plugins to browser SDK
+  ([#331](https://github.com/amplitude/Amplitude-TypeScript/issues/331))
+  ([ba845d3](https://github.com/amplitude/Amplitude-TypeScript/commit/ba845d3329bd6bebe3b89f24f4f316088c2d62b9))
+- send user_agent with events ([#375](https://github.com/amplitude/Amplitude-TypeScript/issues/375))
+  ([26086b5](https://github.com/amplitude/Amplitude-TypeScript/commit/26086b543d7f0ee2d35e09b43199b5c26ed24e36))
+- simplify browser SDK options and plugin options interface
+  ([#384](https://github.com/amplitude/Amplitude-TypeScript/issues/384))
+  ([b464cfb](https://github.com/amplitude/Amplitude-TypeScript/commit/b464cfb8e09d722bf06ed3c11955f77465a23daf))
+- simplify init interface ([#416](https://github.com/amplitude/Amplitude-TypeScript/issues/416))
+  ([93752da](https://github.com/amplitude/Amplitude-TypeScript/commit/93752da1e6ed521263c6d5295a37fc5dc7f3de86))
+- simplify user identity storage options/configuration
+  ([#390](https://github.com/amplitude/Amplitude-TypeScript/issues/390))
+  ([f8cf0cc](https://github.com/amplitude/Amplitude-TypeScript/commit/f8cf0cca8c2a17738f13878642fa5b37c0070f77))
+- use server side user agent parser ([#382](https://github.com/amplitude/Amplitude-TypeScript/issues/382))
+  ([69bd255](https://github.com/amplitude/Amplitude-TypeScript/commit/69bd2558cb37d027064b6459cc2887c219196973))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.7.0](https://github.com/amplitude/Amplitude-TypeScript/compare/@amplitude/analytics-browser-test@2.6.2...@amplitude/analytics-browser-test@2.7.0) (2023-05-04)
 
 ### Features

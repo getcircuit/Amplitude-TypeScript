@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.1 (2023-06-20)
+
+### Bug Fixes
+
+- adds error handling for invalid api ([#153](https://github.com/amplitude/Amplitude-TypeScript/issues/153))
+  ([c03f9d7](https://github.com/amplitude/Amplitude-TypeScript/commit/c03f9d7dad51e3026673dca31418a74591d79bbc))
+- missing tracked events before init issue ([#144](https://github.com/amplitude/Amplitude-TypeScript/issues/144))
+  ([60d0f68](https://github.com/amplitude/Amplitude-TypeScript/commit/60d0f6848087f7b8fc3c870d55489a238e841b26))
+- update default flush config for node ([#152](https://github.com/amplitude/Amplitude-TypeScript/issues/152))
+  ([2445dff](https://github.com/amplitude/Amplitude-TypeScript/commit/2445dff0842e7e0a2b7ee767ab926b5a93348214))
+- upgrade dependencies to resolve dependabot vulnerability alerts
+  ([#299](https://github.com/amplitude/Amplitude-TypeScript/issues/299))
+  ([7dd1cd1](https://github.com/amplitude/Amplitude-TypeScript/commit/7dd1cd1b23a71981a4ad90b4b30cc9b7d28c4412))
+
+### Features
+
+- enhance logger with debug information ([#254](https://github.com/amplitude/Amplitude-TypeScript/issues/254))
+  ([5c6175e](https://github.com/amplitude/Amplitude-TypeScript/commit/5c6175e9372cbeea264ddb34c6cc68148063d4f7))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.1.14](https://github.com/amplitude/Amplitude-TypeScript/compare/@amplitude/analytics-node-test@0.1.13...@amplitude/analytics-node-test@0.1.14) (2023-05-04)
 
 **Note:** Version bump only for package @amplitude/analytics-node-test

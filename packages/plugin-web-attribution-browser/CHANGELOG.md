@@ -3,6 +3,73 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0-beta.0 (2023-06-20)
+
+### Bug Fixes
+
+- dependency tree
+  ([d7ce659](https://github.com/amplitude/Amplitude-TypeScript/commit/d7ce659c72321c373346bab0f4c0e6d23304e1b6))
+- improper cookie usage ([#330](https://github.com/amplitude/Amplitude-TypeScript/issues/330))
+  ([e670091](https://github.com/amplitude/Amplitude-TypeScript/commit/e670091e59014bb35bd9b3ec2a7192f259393575))
+- js script export name for marketing analytics plugins
+  ([aa7b05c](https://github.com/amplitude/Amplitude-TypeScript/commit/aa7b05cb192e23924081a363f3567573f76a3b62))
+- remove client parameter requirement for page view tracking plugin
+  ([#329](https://github.com/amplitude/Amplitude-TypeScript/issues/329))
+  ([1e01575](https://github.com/amplitude/Amplitude-TypeScript/commit/1e015750b52880ca63afa5162cb482995f04d1c6))
+- resolve web attribution is not tracking the first direct/organic traffic
+  ([#239](https://github.com/amplitude/Amplitude-TypeScript/issues/239))
+  ([98a3363](https://github.com/amplitude/Amplitude-TypeScript/commit/98a33633a7a6de7ee147c8cbf690e5546ce53163))
+- simplify plugins and eliminate enums ([#407](https://github.com/amplitude/Amplitude-TypeScript/issues/407))
+  ([890ec66](https://github.com/amplitude/Amplitude-TypeScript/commit/890ec6695a8b25cd6988e9f7ae584d4ba2835f67))
+- update base config to include additional click ids
+  ([#229](https://github.com/amplitude/Amplitude-TypeScript/issues/229))
+  ([5596931](https://github.com/amplitude/Amplitude-TypeScript/commit/55969310714c43f138e1702ba285fd4dadcdcb44))
+- upgrade dependencies to resolve dependabot vulnerability alerts
+  ([#299](https://github.com/amplitude/Amplitude-TypeScript/issues/299))
+  ([7dd1cd1](https://github.com/amplitude/Amplitude-TypeScript/commit/7dd1cd1b23a71981a4ad90b4b30cc9b7d28c4412))
+
+### Features
+
+- add attribution tracking for linkedin click id li_fat_id
+  ([ca81f3d](https://github.com/amplitude/Amplitude-TypeScript/commit/ca81f3d75ece7e0e23a1bc1b6889107d53a60a86))
+- add gbraid and wbraid as campaign parameters ([#242](https://github.com/amplitude/Amplitude-TypeScript/issues/242))
+  ([514b7cd](https://github.com/amplitude/Amplitude-TypeScript/commit/514b7cdea9fee0c4e61479b087f7acdfea889350))
+- add rtd_cid for Reddit campaign tracking/attribution
+  ([784e080](https://github.com/amplitude/Amplitude-TypeScript/commit/784e080aa129c37e850d7f34115beb9770044e4e))
+- add utm_id tracking ([#284](https://github.com/amplitude/Amplitude-TypeScript/issues/284))
+  ([f72dcf1](https://github.com/amplitude/Amplitude-TypeScript/commit/f72dcf1788ebc84544aaee1dc41b1d1ba6e4c06e))
+- allow cross subdomain excluded referrer ([#391](https://github.com/amplitude/Amplitude-TypeScript/issues/391))
+  ([f34f64b](https://github.com/amplitude/Amplitude-TypeScript/commit/f34f64b68bbd328da354afae61ca416d7055a734))
+- enhance logger with debug information ([#254](https://github.com/amplitude/Amplitude-TypeScript/issues/254))
+  ([5c6175e](https://github.com/amplitude/Amplitude-TypeScript/commit/5c6175e9372cbeea264ddb34c6cc68148063d4f7))
+- ignore subdomains when comparing newness of campaigns
+  ([#260](https://github.com/amplitude/Amplitude-TypeScript/issues/260))
+  ([8bb2b76](https://github.com/amplitude/Amplitude-TypeScript/commit/8bb2b76faf37783a58e953391468bd31c089e3a3))
+- new marketing analytics plugin ([#213](https://github.com/amplitude/Amplitude-TypeScript/issues/213))
+  ([02ff174](https://github.com/amplitude/Amplitude-TypeScript/commit/02ff174e3361173dbf15ed3acf72e950810e174f))
+- pass amplitude instance to plugin.setup for enhanced plugin capabilities
+  ([#328](https://github.com/amplitude/Amplitude-TypeScript/issues/328))
+  ([91eeaa0](https://github.com/amplitude/Amplitude-TypeScript/commit/91eeaa0d6bff6bde39538bb54548a938df784462))
+- retrofit web attribution and page view plugins to browser SDK
+  ([#331](https://github.com/amplitude/Amplitude-TypeScript/issues/331))
+  ([ba845d3](https://github.com/amplitude/Amplitude-TypeScript/commit/ba845d3329bd6bebe3b89f24f4f316088c2d62b9))
+- simplify browser SDK options and plugin options interface
+  ([#384](https://github.com/amplitude/Amplitude-TypeScript/issues/384))
+  ([b464cfb](https://github.com/amplitude/Amplitude-TypeScript/commit/b464cfb8e09d722bf06ed3c11955f77465a23daf))
+- simplify user identity storage options/configuration
+  ([#390](https://github.com/amplitude/Amplitude-TypeScript/issues/390))
+  ([f8cf0cc](https://github.com/amplitude/Amplitude-TypeScript/commit/f8cf0cca8c2a17738f13878642fa5b37c0070f77))
+
+### Reverts
+
+- Revert "Updated dependencies"
+  ([7ca9964](https://github.com/amplitude/Amplitude-TypeScript/commit/7ca9964781e4b900c6c027bdddf2ae1e7428ba18))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.0.0](https://github.com/amplitude/Amplitude-TypeScript/compare/@amplitude/plugin-web-attribution-browser@2.0.0-beta.10...@amplitude/plugin-web-attribution-browser@2.0.0) (2023-06-14)
 
 **Note:** Version bump only for package @amplitude/plugin-web-attribution-browser

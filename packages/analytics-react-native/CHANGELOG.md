@@ -3,6 +3,121 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.1 (2023-06-20)
+
+### Bug Fixes
+
+- add callable queue when init is pending ([#181](https://github.com/amplitude/Amplitude-TypeScript/issues/181))
+  ([d8fc361](https://github.com/amplitude/Amplitude-TypeScript/commit/d8fc36195b96e2c10ccc5106027beaa7e970e0c0))
+- add conditional check for window.location.search
+  ([#198](https://github.com/amplitude/Amplitude-TypeScript/issues/198))
+  ([e61b4db](https://github.com/amplitude/Amplitude-TypeScript/commit/e61b4db25e2e7677a3dcb2c8e71f26bcac9a9fd5))
+- add connector event listener after plugins and queued functions
+  ([#378](https://github.com/amplitude/Amplitude-TypeScript/issues/378))
+  ([a2fc8b6](https://github.com/amplitude/Amplitude-TypeScript/commit/a2fc8b6a7ec87dd8eab6538c1e9929c57804b899))
+- add safe check for global scope before loading SDK
+  ([#252](https://github.com/amplitude/Amplitude-TypeScript/issues/252))
+  ([a3f4f6f](https://github.com/amplitude/Amplitude-TypeScript/commit/a3f4f6f7b11abd9cdbdf064e31e32d5fc3e92031))
+- correct platform and add adid ([#184](https://github.com/amplitude/Amplitude-TypeScript/issues/184))
+  ([7134a43](https://github.com/amplitude/Amplitude-TypeScript/commit/7134a4398844516f3d868daf82df9cf2e19d3c39))
+- cover the case when apiKey is missing in the runtime
+  ([#240](https://github.com/amplitude/Amplitude-TypeScript/issues/240))
+  ([308bbe8](https://github.com/amplitude/Amplitude-TypeScript/commit/308bbe8337cbab366a0ca255f2d665101f4781a0))
+- define correct dependencies for @amplitude/analytics-connector
+  ([#234](https://github.com/amplitude/Amplitude-TypeScript/issues/234))
+  ([41c1351](https://github.com/amplitude/Amplitude-TypeScript/commit/41c1351e441b890b016ba123c4ed5747a4c33adb))
+- enable adid by default
+  ([a24dfe0](https://github.com/amplitude/Amplitude-TypeScript/commit/a24dfe05291fd51da50f531990f68ed27dcca7c8))
+- exclude '**mocks**' from typescript declarations
+  ([#277](https://github.com/amplitude/Amplitude-TypeScript/issues/277))
+  ([b6ed565](https://github.com/amplitude/Amplitude-TypeScript/commit/b6ed565928943e3c25fb584b7cd71a0f6d734603))
+- handle parsing malformed urls for web attribution
+  ([#192](https://github.com/amplitude/Amplitude-TypeScript/issues/192))
+  ([cd254d6](https://github.com/amplitude/Amplitude-TypeScript/commit/cd254d6319d8bc7d92affc263ec12c9c39f82fb2))
+- implement integration with experiment sdk for browser
+  ([#156](https://github.com/amplitude/Amplitude-TypeScript/issues/156))
+  ([075ba84](https://github.com/amplitude/Amplitude-TypeScript/commit/075ba84bb4d05fb6a256272d19c03cb692cb0c28))
+- improper cookie usage ([#330](https://github.com/amplitude/Amplitude-TypeScript/issues/330))
+  ([e670091](https://github.com/amplitude/Amplitude-TypeScript/commit/e670091e59014bb35bd9b3ec2a7192f259393575))
+- invoke pre-init track fns after attribution ([#253](https://github.com/amplitude/Amplitude-TypeScript/issues/253))
+  ([b8996d7](https://github.com/amplitude/Amplitude-TypeScript/commit/b8996d793f74d388c1a96e0cde5c0ac060c1e565))
+- missing tracked events before init issue ([#144](https://github.com/amplitude/Amplitude-TypeScript/issues/144))
+  ([60d0f68](https://github.com/amplitude/Amplitude-TypeScript/commit/60d0f6848087f7b8fc3c870d55489a238e841b26))
+- pass options to testStorage ([#201](https://github.com/amplitude/Amplitude-TypeScript/issues/201))
+  ([6e22eb0](https://github.com/amplitude/Amplitude-TypeScript/commit/6e22eb0c101c743b15bb49d9491082fd1fe1d90e))
+- prevent concurrent init calls ([#191](https://github.com/amplitude/Amplitude-TypeScript/issues/191))
+  ([efda076](https://github.com/amplitude/Amplitude-TypeScript/commit/efda0760f4f1e92e47a3150985e18efcc3b108d9))
+- push user id and device id changes to analytics connector
+  ([#342](https://github.com/amplitude/Amplitude-TypeScript/issues/342))
+  ([3214b08](https://github.com/amplitude/Amplitude-TypeScript/commit/3214b0836eb03e39b5753b1e6be30e1c2f5770ca))
+- removes saveEvents config ([#147](https://github.com/amplitude/Amplitude-TypeScript/issues/147))
+  ([6fde736](https://github.com/amplitude/Amplitude-TypeScript/commit/6fde736ca8a865462522082a8085673756dbcc7d))
+- removes unused tracking options ([#193](https://github.com/amplitude/Amplitude-TypeScript/issues/193))
+  ([2b57a8e](https://github.com/amplitude/Amplitude-TypeScript/commit/2b57a8e07971312b40c8287e2daddcfb2b55a832))
+- set React Native default session timeout to 5 minutes (same for other mobile devices)
+  ([#278](https://github.com/amplitude/Amplitude-TypeScript/issues/278))
+  ([a456471](https://github.com/amplitude/Amplitude-TypeScript/commit/a4564719ccd0628690427f198a8ca83d60ceb1ac))
+- simplify plugins and eliminate enums ([#407](https://github.com/amplitude/Amplitude-TypeScript/issues/407))
+  ([890ec66](https://github.com/amplitude/Amplitude-TypeScript/commit/890ec6695a8b25cd6988e9f7ae584d4ba2835f67))
+- update default flush config for node ([#152](https://github.com/amplitude/Amplitude-TypeScript/issues/152))
+  ([2445dff](https://github.com/amplitude/Amplitude-TypeScript/commit/2445dff0842e7e0a2b7ee767ab926b5a93348214))
+- update userId/deviceId in identify call if eventOptions contains userId/deviceId
+  ([#244](https://github.com/amplitude/Amplitude-TypeScript/issues/244))
+  ([578cbe2](https://github.com/amplitude/Amplitude-TypeScript/commit/578cbe218de84d7fdd4930f75820beda6f85ce6d))
+- updates required kotlin version for react native SDK
+  ([9184714](https://github.com/amplitude/Amplitude-TypeScript/commit/9184714ed0173a468fda86429b734d9ef26d6f16))
+- upgrade dependencies to resolve dependabot vulnerability alerts
+  ([#299](https://github.com/amplitude/Amplitude-TypeScript/issues/299))
+  ([7dd1cd1](https://github.com/amplitude/Amplitude-TypeScript/commit/7dd1cd1b23a71981a4ad90b4b30cc9b7d28c4412))
+
+### Features
+
+- add ingestion_metadata field ([#212](https://github.com/amplitude/Amplitude-TypeScript/issues/212))
+  ([ebe8448](https://github.com/amplitude/Amplitude-TypeScript/commit/ebe8448b23609134f846e18da2e769158ca30bf1))
+- add option for instance name ([#428](https://github.com/amplitude/Amplitude-TypeScript/issues/428))
+  ([1a8ff7d](https://github.com/amplitude/Amplitude-TypeScript/commit/1a8ff7d665d2a936db7cb42f4cde5350379b7cae))
+- add reset method for resetting userId and deviceId
+  ([#157](https://github.com/amplitude/Amplitude-TypeScript/issues/157))
+  ([8bfc864](https://github.com/amplitude/Amplitude-TypeScript/commit/8bfc864b15dd7e427556a50bc3de6b43b2485189))
+- added extendSession() method to Browser Client ([#425](https://github.com/amplitude/Amplitude-TypeScript/issues/425))
+  ([#433](https://github.com/amplitude/Amplitude-TypeScript/issues/433))
+  ([0f5fccc](https://github.com/amplitude/Amplitude-TypeScript/commit/0f5fccc83d3f7f0a80adc4a0807fbd7e71c72e4a))
+- adds create instance api ([#188](https://github.com/amplitude/Amplitude-TypeScript/issues/188))
+  ([050c1d9](https://github.com/amplitude/Amplitude-TypeScript/commit/050c1d96cedbc9e68aedf6fd55e85d2d3dc2fee4))
+- allow cross subdomain excluded referrer ([#391](https://github.com/amplitude/Amplitude-TypeScript/issues/391))
+  ([f34f64b](https://github.com/amplitude/Amplitude-TypeScript/commit/f34f64b68bbd328da354afae61ca416d7055a734))
+- allow opt out of deleting legacy sdk cookies
+  ([c6a82fb](https://github.com/amplitude/Amplitude-TypeScript/commit/c6a82fb52e1301e427116891d1f31208bcfc6548))
+- auto-tracking session events ([#263](https://github.com/amplitude/Amplitude-TypeScript/issues/263))
+  ([75347c6](https://github.com/amplitude/Amplitude-TypeScript/commit/75347c61984832a6ade3ca9e6abe1bbd0faa6cde))
+- enhance logger with debug information ([#254](https://github.com/amplitude/Amplitude-TypeScript/issues/254))
+  ([5c6175e](https://github.com/amplitude/Amplitude-TypeScript/commit/5c6175e9372cbeea264ddb34c6cc68148063d4f7))
+- make default event tracking enabled by default ([#386](https://github.com/amplitude/Amplitude-TypeScript/issues/386))
+  ([242f42d](https://github.com/amplitude/Amplitude-TypeScript/commit/242f42dd2e46eaec95c827795e04f74fba39c35f))
+- pass amplitude instance to plugin.setup for enhanced plugin capabilities
+  ([#328](https://github.com/amplitude/Amplitude-TypeScript/issues/328))
+  ([91eeaa0](https://github.com/amplitude/Amplitude-TypeScript/commit/91eeaa0d6bff6bde39538bb54548a938df784462))
+- persisted event identifiers (React Native) ([#280](https://github.com/amplitude/Amplitude-TypeScript/issues/280))
+  ([bd35e73](https://github.com/amplitude/Amplitude-TypeScript/commit/bd35e73a0a08db6609938d27f00f54cbf77ff6c1))
+- react-native with web support ([#126](https://github.com/amplitude/Amplitude-TypeScript/issues/126))
+  ([5384130](https://github.com/amplitude/Amplitude-TypeScript/commit/5384130904d19b4b6cf4b43826efa2b373b47b85))
+- simplify browser SDK options and plugin options interface
+  ([#384](https://github.com/amplitude/Amplitude-TypeScript/issues/384))
+  ([b464cfb](https://github.com/amplitude/Amplitude-TypeScript/commit/b464cfb8e09d722bf06ed3c11955f77465a23daf))
+- simplify user identity storage options/configuration
+  ([#390](https://github.com/amplitude/Amplitude-TypeScript/issues/390))
+  ([f8cf0cc](https://github.com/amplitude/Amplitude-TypeScript/commit/f8cf0cca8c2a17738f13878642fa5b37c0070f77))
+
+### Reverts
+
+- Revert "Updated dependencies"
+  ([7ca9964](https://github.com/amplitude/Amplitude-TypeScript/commit/7ca9964781e4b900c6c027bdddf2ae1e7428ba18))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.1.7](https://github.com/amplitude/Amplitude-TypeScript/compare/@amplitude/analytics-react-native@1.1.6...@amplitude/analytics-react-native@1.1.7) (2023-05-04)
 
 **Note:** Version bump only for package @amplitude/analytics-react-native

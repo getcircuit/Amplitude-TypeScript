@@ -3,6 +3,83 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0-beta.0 (2023-06-20)
+
+### Bug Fixes
+
+- add safe check for global scope before loading SDK
+  ([#252](https://github.com/amplitude/Amplitude-TypeScript/issues/252))
+  ([a3f4f6f](https://github.com/amplitude/Amplitude-TypeScript/commit/a3f4f6f7b11abd9cdbdf064e31e32d5fc3e92031))
+- dependency tree
+  ([d7ce659](https://github.com/amplitude/Amplitude-TypeScript/commit/d7ce659c72321c373346bab0f4c0e6d23304e1b6))
+- dyanamic page view tracking to run after navigation
+  ([#395](https://github.com/amplitude/Amplitude-TypeScript/issues/395))
+  ([484d8f6](https://github.com/amplitude/Amplitude-TypeScript/commit/484d8f61955e7bf169576b3a0c588bf9f440e726))
+- dyanamic page view tracking to run after navigation
+  ([#396](https://github.com/amplitude/Amplitude-TypeScript/issues/396))
+  ([31d6435](https://github.com/amplitude/Amplitude-TypeScript/commit/31d6435b0f50da89302e83431a6fb5c1b46ec71b))
+- event types and properties for default events ([#341](https://github.com/amplitude/Amplitude-TypeScript/issues/341))
+  ([707522d](https://github.com/amplitude/Amplitude-TypeScript/commit/707522d440d5aa3be48809afcb44a4147f103903))
+- js script export name for marketing analytics plugins
+  ([aa7b05c](https://github.com/amplitude/Amplitude-TypeScript/commit/aa7b05cb192e23924081a363f3567573f76a3b62))
+- Reference error for location ([#398](https://github.com/amplitude/Amplitude-TypeScript/issues/398))
+  ([85f063e](https://github.com/amplitude/Amplitude-TypeScript/commit/85f063e65165b3571366e96dfecb866c6286670b))
+- remove client parameter requirement for page view tracking plugin
+  ([#329](https://github.com/amplitude/Amplitude-TypeScript/issues/329))
+  ([1e01575](https://github.com/amplitude/Amplitude-TypeScript/commit/1e015750b52880ca63afa5162cb482995f04d1c6))
+- simplify plugins and eliminate enums ([#407](https://github.com/amplitude/Amplitude-TypeScript/issues/407))
+  ([890ec66](https://github.com/amplitude/Amplitude-TypeScript/commit/890ec6695a8b25cd6988e9f7ae584d4ba2835f67))
+- update base config to include additional click ids
+  ([#229](https://github.com/amplitude/Amplitude-TypeScript/issues/229))
+  ([5596931](https://github.com/amplitude/Amplitude-TypeScript/commit/55969310714c43f138e1702ba285fd4dadcdcb44))
+- upgrade dependencies to resolve dependabot vulnerability alerts
+  ([#299](https://github.com/amplitude/Amplitude-TypeScript/issues/299))
+  ([7dd1cd1](https://github.com/amplitude/Amplitude-TypeScript/commit/7dd1cd1b23a71981a4ad90b4b30cc9b7d28c4412))
+
+### Features
+
+- add attribution tracking for linkedin click id li_fat_id
+  ([ca81f3d](https://github.com/amplitude/Amplitude-TypeScript/commit/ca81f3d75ece7e0e23a1bc1b6889107d53a60a86))
+- add campaign params to page view events ([#216](https://github.com/amplitude/Amplitude-TypeScript/issues/216))
+  ([c0f99b9](https://github.com/amplitude/Amplitude-TypeScript/commit/c0f99b98d0d2c24f6f9486312b568194c690a202))
+- add gbraid and wbraid as campaign parameters ([#242](https://github.com/amplitude/Amplitude-TypeScript/issues/242))
+  ([514b7cd](https://github.com/amplitude/Amplitude-TypeScript/commit/514b7cdea9fee0c4e61479b087f7acdfea889350))
+- add rtd_cid for Reddit campaign tracking/attribution
+  ([784e080](https://github.com/amplitude/Amplitude-TypeScript/commit/784e080aa129c37e850d7f34115beb9770044e4e))
+- add single page app page view tracking option ([#224](https://github.com/amplitude/Amplitude-TypeScript/issues/224))
+  ([2d97c9e](https://github.com/amplitude/Amplitude-TypeScript/commit/2d97c9ef8501da04465225ef8366fe0419b3415a))
+- add utm_id tracking ([#284](https://github.com/amplitude/Amplitude-TypeScript/issues/284))
+  ([f72dcf1](https://github.com/amplitude/Amplitude-TypeScript/commit/f72dcf1788ebc84544aaee1dc41b1d1ba6e4c06e))
+- allow custom page view event type ([#335](https://github.com/amplitude/Amplitude-TypeScript/issues/335))
+  ([0a4f8ed](https://github.com/amplitude/Amplitude-TypeScript/commit/0a4f8ede6e30ec3450ac0a468cf22b9266b0b23c))
+- new marketing analytics plugin ([#213](https://github.com/amplitude/Amplitude-TypeScript/issues/213))
+  ([02ff174](https://github.com/amplitude/Amplitude-TypeScript/commit/02ff174e3361173dbf15ed3acf72e950810e174f))
+- retrofit web attribution and page view plugins to browser SDK
+  ([#331](https://github.com/amplitude/Amplitude-TypeScript/issues/331))
+  ([ba845d3](https://github.com/amplitude/Amplitude-TypeScript/commit/ba845d3329bd6bebe3b89f24f4f316088c2d62b9))
+- simplify browser SDK options and plugin options interface
+  ([#384](https://github.com/amplitude/Amplitude-TypeScript/issues/384))
+  ([b464cfb](https://github.com/amplitude/Amplitude-TypeScript/commit/b464cfb8e09d722bf06ed3c11955f77465a23daf))
+- simplify user identity storage options/configuration
+  ([#390](https://github.com/amplitude/Amplitude-TypeScript/issues/390))
+  ([f8cf0cc](https://github.com/amplitude/Amplitude-TypeScript/commit/f8cf0cca8c2a17738f13878642fa5b37c0070f77))
+- track page dynamic page views in single page applications be default
+  ([#394](https://github.com/amplitude/Amplitude-TypeScript/issues/394))
+  ([7ce6b3a](https://github.com/amplitude/Amplitude-TypeScript/commit/7ce6b3ac610cded95e817a16d22fac82ec21c4e4))
+- update Plugin implementation to allow for dropping events
+  ([#361](https://github.com/amplitude/Amplitude-TypeScript/issues/361))
+  ([3db4d13](https://github.com/amplitude/Amplitude-TypeScript/commit/3db4d1327e87ebcf7a2a8c1d50a62e5c8bc2b418))
+
+### Reverts
+
+- Revert "Updated dependencies"
+  ([7ca9964](https://github.com/amplitude/Amplitude-TypeScript/commit/7ca9964781e4b900c6c027bdddf2ae1e7428ba18))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.0.0](https://github.com/amplitude/Amplitude-TypeScript/compare/@amplitude/plugin-page-view-tracking-browser@2.0.0-beta.10...@amplitude/plugin-page-view-tracking-browser@2.0.0) (2023-06-14)
 
 **Note:** Version bump only for package @amplitude/plugin-page-view-tracking-browser
