@@ -5,7 +5,7 @@ import {
   PageTrackingHistoryChanges,
   PageTrackingOptions,
   PageTrackingTrackOn,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 
 /**
  * Returns false if defaultTracking === false or if defaultTracking[event],

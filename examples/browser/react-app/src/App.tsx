@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { track, identify, setGroup, groupIdentify, Identify } from '@amplitude/analytics-browser';
+import { track, identify, setGroup, groupIdentify, Identify } from '@getcircuit/amplitude-analytics-browser';
 
 function App() {
   useEffect(() => {

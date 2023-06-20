@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import * as amplitude from '@amplitude/analytics-browser';
+import * as amplitude from '@getcircuit/amplitude-analytics-browser';
 import { default as nock } from 'nock';
 import { success } from './responses';
 import 'isomorphic-fetch';
 import { path, SUCCESS_MESSAGE, url, uuidPattern } from './constants';
-import { LogLevel } from '@amplitude/analytics-types';
-import { UUID } from '@amplitude/analytics-core';
+import { LogLevel } from '@getcircuit/amplitude-analytics-types';
+import { UUID } from '@getcircuit/amplitude-analytics-core';
 
 describe('integration', () => {
   const uuid: string = expect.stringMatching(uuidPattern) as string;

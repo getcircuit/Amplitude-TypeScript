@@ -1,4 +1,4 @@
-import { AmplitudeCore, Destination, Identify, returnWrapper, Revenue, UUID } from '@amplitude/analytics-core';
+import { AmplitudeCore, Destination, Identify, returnWrapper, Revenue, UUID } from '@getcircuit/amplitude-analytics-core';
 import {
   getAnalyticsConnector,
   getAttributionTrackingConfig,
@@ -10,7 +10,7 @@ import {
   isFormInteractionTrackingEnabled,
   setConnectorDeviceId,
   setConnectorUserId,
-} from '@amplitude/analytics-client-common';
+} from '@getcircuit/amplitude-analytics-client-common';
 import {
   BrowserClient,
   BrowserConfig,
@@ -20,12 +20,12 @@ import {
   Identify as IIdentify,
   Revenue as IRevenue,
   TransportType,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { convertProxyObjectToRealObject, isInstanceProxy } from './utils/snippet-helper';
 import { Context } from './plugins/context';
 import { useBrowserConfig, createTransport } from './config';
-import { webAttributionPlugin } from '@amplitude/plugin-web-attribution-browser';
-import { pageViewTrackingPlugin } from '@amplitude/plugin-page-view-tracking-browser';
+import { webAttributionPlugin } from '@getcircuit/amplitude-plugin-web-attribution-browser';
+import { pageViewTrackingPlugin } from '@getcircuit/amplitude-plugin-page-view-tracking-browser';
 import { formInteractionTracking } from './plugins/form-interaction-tracking';
 import { fileDownloadTracking } from './plugins/file-download-tracking';
 import { DEFAULT_SESSION_END_EVENT, DEFAULT_SESSION_START_EVENT } from './constants';

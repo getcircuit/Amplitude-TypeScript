@@ -1,6 +1,6 @@
 import { SendBeaconTransport } from '../../src/transports/send-beacon';
-import { Status } from '@amplitude/analytics-types';
-import * as AnalyticsClientCommon from '@amplitude/analytics-client-common';
+import { Status } from '@getcircuit/amplitude-analytics-types';
+import * as AnalyticsClientCommon from '@getcircuit/amplitude-analytics-client-common';
 
 describe('beacon', () => {
   // eslint-disable-next-line @typescript-eslint/unbound-method

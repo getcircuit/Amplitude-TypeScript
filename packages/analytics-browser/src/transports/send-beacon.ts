@@ -1,6 +1,6 @@
-import { getGlobalScope } from '@amplitude/analytics-client-common';
-import { BaseTransport } from '@amplitude/analytics-core';
-import { Payload, Response, Transport } from '@amplitude/analytics-types';
+import { getGlobalScope } from '@getcircuit/amplitude-analytics-client-common';
+import { BaseTransport } from '@getcircuit/amplitude-analytics-core';
+import { Payload, Response, Transport } from '@getcircuit/amplitude-analytics-types';
 
 export class SendBeaconTransport extends BaseTransport implements Transport {
   async send(serverUrl: string, payload: Payload): Promise<Response | null> {

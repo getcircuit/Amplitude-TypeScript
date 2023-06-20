@@ -7,14 +7,14 @@ import {
   debugWrapper,
   getClientLogConfig,
   getClientStates,
-} from '@amplitude/analytics-core';
+} from '@getcircuit/amplitude-analytics-core';
 import {
   CampaignTracker,
   IdentityEventSender,
   getAnalyticsConnector,
   setConnectorDeviceId,
   setConnectorUserId,
-} from '@amplitude/analytics-client-common';
+} from '@getcircuit/amplitude-analytics-client-common';
 import {
   ReactNativeConfig,
   Campaign,
@@ -24,12 +24,12 @@ import {
   EventOptions,
   Event,
   Result,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { Context } from './plugins/context';
 import { useReactNativeConfig, createCookieStorage } from './config';
 import { parseOldCookies } from './cookie-migration';
 import { isNative } from './utils/platform';
-import { ReactNativeAttributionOptions } from '@amplitude/analytics-types/lib/esm/config';
+import { ReactNativeAttributionOptions } from '@getcircuit/amplitude-analytics-types/lib/esm/config';
 
 const START_SESSION_EVENT = 'session_start';
 const END_SESSION_EVENT = 'session_end';

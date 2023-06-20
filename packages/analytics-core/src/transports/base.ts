@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
-import { Payload, Response, Status, Transport } from '@amplitude/analytics-types';
+import { Payload, Response, Status, Transport } from '@getcircuit/amplitude-analytics-types';
 
 export class BaseTransport implements Transport {
   send(_serverUrl: string, _payload: Payload): Promise<Response | null> {

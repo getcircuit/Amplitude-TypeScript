@@ -1,5 +1,5 @@
-import { createInstance } from '@amplitude/analytics-browser';
-import { EnrichmentPlugin } from '@amplitude/analytics-types';
+import { createInstance } from '@getcircuit/amplitude-analytics-browser';
+import { EnrichmentPlugin } from '@getcircuit/amplitude-analytics-types';
 
 /**
  * This is an example plugin that enriches events with event_type "Page View" by adding

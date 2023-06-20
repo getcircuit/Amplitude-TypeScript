@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { Event, Plugin, Status } from '@amplitude/analytics-types';
+import { Event, Plugin, Status } from '@getcircuit/amplitude-analytics-types';
 import { AmplitudeCore, Identify, Revenue } from '../src/index';
 import { useDefaultConfig } from './helpers/default';
 import { CLIENT_NOT_INITIALIZED, OPT_OUT_MESSAGE } from '../src/messages';

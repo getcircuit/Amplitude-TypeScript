@@ -1,4 +1,4 @@
-import { LogLevel, Logger as ILogger } from '@amplitude/analytics-types';
+import { LogLevel, Logger as ILogger } from '@getcircuit/amplitude-analytics-types';
 
 const PREFIX = 'Amplitude Logger ';
 

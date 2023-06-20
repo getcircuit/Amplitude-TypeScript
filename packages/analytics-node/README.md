@@ -48,7 +48,7 @@ amplitude.init(API_KEY);
 Events represent how users interact with your application. For example, "Button Clicked" may be an action you want to note.
 
 ```typescript
-import { track } from '@amplitude/analytics-node';
+import { track } from '@getcircuit/amplitude-analytics-node';
 
 // Track a basic event
 track('Button Clicked', undefined, {
@@ -69,7 +69,7 @@ track('Button Clicked', eventProperties, {
 User properties help you understand your users at the time they performed some action within your app such as their device details, their preferences, or language.
 
 ```typescript
-import { Identify, identify } from '@amplitude/analytics-node';
+import { Identify, identify } from '@getcircuit/amplitude-analytics-node';
 
 const event = new Identify();
 
@@ -103,7 +103,7 @@ identify(event);
 ### User Groups
 
 ```typescript
-import { setGroup } from '@amplitude/analytics-node';
+import { setGroup } from '@getcircuit/amplitude-analytics-node';
 
 // set group with single group name
 setGroup('orgId', '15');
@@ -119,7 +119,7 @@ This feature is only available to Growth and Enterprise customers who have purch
 Use the Group Identify API to set or update properties of particular groups. However, these updates will only affect events going forward.
 
 ```typescript
-import { Identify, groupIdentify } from '@amplitude/analytics-node';
+import { Identify, groupIdentify } from '@getcircuit/amplitude-analytics-node';
 
 const groupType = 'plan';
 const groupName = 'enterprise';
@@ -134,7 +134,7 @@ groupIdentify(groupType, groupName, identity);
 Revenue instances will store each revenue transaction and allow you to define several special revenue properties (such as 'revenueType', 'productIdentifier', etc.) that are used in Amplitude's Event Segmentation and Revenue LTV charts. These Revenue instance objects are then passed into `revenue` to send as revenue events to Amplitude. This allows us to automatically display data relevant to revenue in the platform. You can use this to track both in-app and non-in-app purchases.
 
 ```typescript
-import { Revenue, revenue } from '@amplitude/analytics-node';
+import { Revenue, revenue } from '@getcircuit/amplitude-analytics-node';
 
 const event = new Revenue()
   .setProductId('com.company.productId')

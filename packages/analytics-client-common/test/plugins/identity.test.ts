@@ -1,5 +1,5 @@
 import { IdentityEventSender } from '../../src/plugins/identity';
-import { Config } from '@amplitude/analytics-types';
+import { Config } from '@getcircuit/amplitude-analytics-types';
 import { getAnalyticsConnector } from '../../src/analytics-connector';
 
 describe('identity', () => {

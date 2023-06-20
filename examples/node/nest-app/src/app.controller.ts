@@ -1,6 +1,6 @@
 import { Controller, Get, Render } from '@nestjs/common';
 import { AppService } from './app.service';
-import * as amplitude from '@amplitude/analytics-node';
+import * as amplitude from '@getcircuit/amplitude-analytics-node';
 
 const AMPLITUDE_API_KEY = '9f0e4a9f1c1233088b254e30ba3c80e1';
 

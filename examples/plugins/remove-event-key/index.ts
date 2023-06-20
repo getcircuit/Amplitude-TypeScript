@@ -1,6 +1,6 @@
-import { createInstance } from '@amplitude/analytics-browser';
-import { EnrichmentPlugin } from '@amplitude/analytics-types';
-import { BaseEvent } from '@amplitude/analytics-types/src';
+import { createInstance } from '@getcircuit/amplitude-analytics-browser';
+import { EnrichmentPlugin } from '@getcircuit/amplitude-analytics-types';
+import { BaseEvent } from '@getcircuit/amplitude-analytics-types/src';
 
 type KeyOfEvent = keyof BaseEvent;
 

@@ -5,9 +5,9 @@ import {
   Storage,
   ReactNativeTrackingOptions,
   UserSession,
-} from '@amplitude/analytics-types';
-import { Config, MemoryStorage, UUID } from '@amplitude/analytics-core';
-import { CookieStorage, getCookieName, getQueryParams, FetchTransport } from '@amplitude/analytics-client-common';
+} from '@getcircuit/amplitude-analytics-types';
+import { Config, MemoryStorage, UUID } from '@getcircuit/amplitude-analytics-core';
+import { CookieStorage, getCookieName, getQueryParams, FetchTransport } from '@getcircuit/amplitude-analytics-client-common';
 
 import { LocalStorage } from './storage/local-storage';
 

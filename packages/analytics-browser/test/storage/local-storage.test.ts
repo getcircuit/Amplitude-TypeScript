@@ -1,5 +1,5 @@
 import { LocalStorage } from '../../src/storage/local-storage';
-import * as AnalyticsClientCommon from '@amplitude/analytics-client-common';
+import * as AnalyticsClientCommon from '@getcircuit/amplitude-analytics-client-common';
 
 describe('local-storage', () => {
   describe('isEnabled', () => {

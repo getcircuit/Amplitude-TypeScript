@@ -1,5 +1,5 @@
 import { Timeline } from '../src/timeline';
-import { DestinationPlugin, Event, Plugin } from '@amplitude/analytics-types';
+import { DestinationPlugin, Event, Plugin } from '@getcircuit/amplitude-analytics-types';
 import { useDefaultConfig, promiseState } from './helpers/default';
 import { createTrackEvent } from '../src/utils/event-builder';
 import { AmplitudeCore } from '../src/core-client';

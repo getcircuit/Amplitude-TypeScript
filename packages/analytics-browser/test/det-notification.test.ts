@@ -2,7 +2,7 @@ jest.unmock('../src/det-notification');
 
 import { detNotify, resetNotify } from '../src/det-notification';
 import { BrowserConfig } from '../src/config';
-import { UUID } from '@amplitude/analytics-core';
+import { UUID } from '@getcircuit/amplitude-analytics-core';
 
 describe('detNotify', () => {
   let apiKey = '';

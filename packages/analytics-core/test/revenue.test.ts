@@ -1,6 +1,6 @@
 import { createRevenueEvent } from '../src/utils/event-builder';
 import { Revenue } from '../src/index';
-import { RevenueProperty } from '@amplitude/analytics-types';
+import { RevenueProperty } from '@getcircuit/amplitude-analytics-types';
 
 const defaultRevenueProperty = {
   [RevenueProperty.REVENUE_PRODUCT_ID]: '',

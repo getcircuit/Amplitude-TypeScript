@@ -1,5 +1,5 @@
 import { Destination, getResponseBodyString } from '../../src/plugins/destination';
-import { Config, DestinationContext, Logger, Payload, Result, Status } from '@amplitude/analytics-types';
+import { Config, DestinationContext, Logger, Payload, Result, Status } from '@getcircuit/amplitude-analytics-types';
 import { API_KEY, useDefaultConfig } from '../helpers/default';
 import {
   INVALID_API_KEY,

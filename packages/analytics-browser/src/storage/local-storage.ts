@@ -1,5 +1,5 @@
-import { getGlobalScope } from '@amplitude/analytics-client-common';
-import { Storage } from '@amplitude/analytics-types';
+import { getGlobalScope } from '@getcircuit/amplitude-analytics-client-common';
+import { Storage } from '@getcircuit/amplitude-analytics-types';
 
 export class LocalStorage<T> implements Storage<T> {
   async isEnabled(): Promise<boolean> {

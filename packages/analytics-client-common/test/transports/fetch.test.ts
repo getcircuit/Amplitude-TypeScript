@@ -1,5 +1,5 @@
 import { FetchTransport } from '../../src/transports/fetch';
-import { Status } from '@amplitude/analytics-types';
+import { Status } from '@getcircuit/amplitude-analytics-types';
 import 'isomorphic-fetch';
 
 describe('fetch', () => {

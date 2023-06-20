@@ -9,7 +9,7 @@ import {
   IngestionMetadata,
   Options,
   ServerZoneType,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import {
   AMPLITUDE_SERVER_URL,
   AMPLITUDE_BATCH_SERVER_URL,

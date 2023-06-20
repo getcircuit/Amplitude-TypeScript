@@ -1,4 +1,4 @@
-import { Config } from '@amplitude/analytics-types';
+import { Config } from '@getcircuit/amplitude-analytics-types';
 import { getDefaultConfig } from '../../src/config';
 
 export const useDefaultConfig = (): Config => ({

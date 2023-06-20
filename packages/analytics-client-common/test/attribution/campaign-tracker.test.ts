@@ -1,8 +1,8 @@
 import { API_KEY } from '../helpers/constants';
 import { CampaignTracker } from '../../src/attribution/campaign-tracker';
 import { BASE_CAMPAIGN } from '../../src/attribution/constants';
-import { MemoryStorage } from '@amplitude/analytics-core';
-import { Campaign } from '@amplitude/analytics-types';
+import { MemoryStorage } from '@getcircuit/amplitude-analytics-core';
+import { Campaign } from '@getcircuit/amplitude-analytics-types';
 
 describe('CampaignTracker', () => {
   describe('isNewCampaign', () => {

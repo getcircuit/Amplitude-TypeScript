@@ -30,7 +30,7 @@ This plugin works on top of Amplitude Browser SDK and adds page view tracking fe
 * `@amplitude/plugin-page-view-tracking-browser`
 
 ```typescript
-import { pageViewTrackingPlugin } from '@amplitude/plugin-page-view-tracking-browser';
+import { pageViewTrackingPlugin } from '@getcircuit/amplitude-plugin-page-view-tracking-browser';
 ```
 
 ### 2. Instantiate page view plugin

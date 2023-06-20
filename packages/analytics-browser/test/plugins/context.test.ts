@@ -1,6 +1,6 @@
 import { BrowserConfig } from '../../src/config';
 import { Context } from '../../src/plugins/context';
-import { UUID } from '@amplitude/analytics-core';
+import { UUID } from '@getcircuit/amplitude-analytics-core';
 
 describe('context', () => {
   let apiKey = '';

@@ -1,4 +1,4 @@
-import { AmplitudeReturn } from '@amplitude/analytics-types';
+import { AmplitudeReturn } from '@getcircuit/amplitude-analytics-types';
 
 export const returnWrapper: {
   (): AmplitudeReturn<void>;

@@ -1,6 +1,6 @@
 import { AmplitudeNode } from '../src/node-client';
-import * as core from '@amplitude/analytics-core';
-import { Status } from '@amplitude/analytics-types';
+import * as core from '@getcircuit/amplitude-analytics-core';
+import { Status } from '@getcircuit/amplitude-analytics-types';
 import * as Config from '../src/config';
 
 describe('node-client', () => {

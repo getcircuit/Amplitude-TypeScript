@@ -1,7 +1,7 @@
-import { BeforePlugin, ReactNativeConfig, Event } from '@amplitude/analytics-types';
+import { BeforePlugin, ReactNativeConfig, Event } from '@getcircuit/amplitude-analytics-types';
 import UAParser from '@amplitude/ua-parser-js';
-import { UUID } from '@amplitude/analytics-core';
-import { getLanguage } from '@amplitude/analytics-client-common';
+import { UUID } from '@getcircuit/amplitude-analytics-core';
+import { getLanguage } from '@getcircuit/amplitude-analytics-client-common';
 import { VERSION } from '../version';
 import { NativeModules } from 'react-native';
 
@@ -26,7 +26,7 @@ export interface AmplitudeReactNative {
 }
 
 export class Context implements BeforePlugin {
-  name = '@amplitude/plugin-context-react-native';
+  name = '@getcircuit/amplitude-plugin-context-react-native';
   type = 'before' as const;
 
   // this.config is defined in setup() which will always be called first

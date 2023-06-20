@@ -1,5 +1,5 @@
-import { BaseTransport } from '@amplitude/analytics-core';
-import { Payload, Response, Transport } from '@amplitude/analytics-types';
+import { BaseTransport } from '@getcircuit/amplitude-analytics-core';
+import { Payload, Response, Transport } from '@getcircuit/amplitude-analytics-types';
 
 export class XHRTransport extends BaseTransport implements Transport {
   private state = {

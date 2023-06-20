@@ -1,9 +1,9 @@
-import { BrowserClient, Event, EnrichmentPlugin } from '@amplitude/analytics-types';
+import { BrowserClient, Event, EnrichmentPlugin } from '@getcircuit/amplitude-analytics-types';
 import { DEFAULT_FILE_DOWNLOAD_EVENT, FILE_EXTENSION, FILE_NAME, LINK_ID, LINK_TEXT, LINK_URL } from '../constants';
 import { BrowserConfig } from '../config';
 
 export const fileDownloadTracking = (): EnrichmentPlugin => {
-  const name = '@amplitude/plugin-file-download-tracking-browser';
+  const name = '@getcircuit/amplitude-plugin-file-download-tracking-browser';
   const type = 'enrichment';
   const setup = async (config: BrowserConfig, amplitude: BrowserClient) => {
     /* istanbul ignore if */

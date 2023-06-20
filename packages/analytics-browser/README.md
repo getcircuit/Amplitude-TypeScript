@@ -39,7 +39,7 @@ yarn add @amplitude/analytics-browser
 Import the package into your project and initialize it with your API key.
 
 ```ts
-import * as amplitude from '@amplitude/analytics-browser';
+import * as amplitude from '@getcircuit/amplitude-analytics-browser';
 
 amplitude.init('<YOUR_API_KEY>');
 ```

@@ -1,4 +1,4 @@
-import { getGlobalScope } from '@amplitude/analytics-client-common';
+import { getGlobalScope } from '@getcircuit/amplitude-analytics-client-common';
 import * as amplitude from './index';
 import { createInstance } from './browser-client-factory';
 import { runQueuedFunctions } from './utils/snippet-helper';

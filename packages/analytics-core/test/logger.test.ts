@@ -1,4 +1,4 @@
-import { LogLevel } from '@amplitude/analytics-types';
+import { LogLevel } from '@getcircuit/amplitude-analytics-types';
 import { Logger } from '../src/logger';
 
 jest.unmock('../src/logger');

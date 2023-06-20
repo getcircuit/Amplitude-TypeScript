@@ -1,11 +1,11 @@
-import { CampaignParser } from '@amplitude/analytics-client-common';
-import { BeforePlugin, BrowserClient, BrowserConfig, Campaign, Event, Storage } from '@amplitude/analytics-types';
+import { CampaignParser } from '@getcircuit/amplitude-analytics-client-common';
+import { BeforePlugin, BrowserClient, BrowserConfig, Campaign, Event, Storage } from '@getcircuit/amplitude-analytics-types';
 import { createCampaignEvent, getDefaultExcludedReferrers, getStorageKey, isNewCampaign } from './helpers';
 import { CreateWebAttributionPlugin, Options } from './typings/web-attribution';
 
 export const webAttributionPlugin: CreateWebAttributionPlugin = function (options: Options = {}) {
   const plugin: BeforePlugin = {
-    name: '@amplitude/plugin-web-attribution-browser',
+    name: '@getcircuit/amplitude-plugin-web-attribution-browser',
     type: 'before',
 
     setup: async function (config: BrowserConfig, amplitude: BrowserClient) {

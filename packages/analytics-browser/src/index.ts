@@ -24,5 +24,5 @@ export const {
   track,
 } = client;
 export { runQueuedFunctions } from './utils/snippet-helper';
-export { Revenue, Identify } from '@amplitude/analytics-core';
-export * as Types from '@amplitude/analytics-types';
+export { Revenue, Identify } from '@getcircuit/amplitude-analytics-core';
+export * as Types from '@getcircuit/amplitude-analytics-types';

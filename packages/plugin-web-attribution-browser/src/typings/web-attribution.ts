@@ -1,4 +1,4 @@
-import { BeforePlugin } from '@amplitude/analytics-types';
+import { BeforePlugin } from '@getcircuit/amplitude-analytics-types';
 
 export interface Options {
   excludeReferrers?: (string | RegExp)[];

@@ -1,4 +1,4 @@
-import { NodeConfig as INodeConfig, NodeOptions } from '@amplitude/analytics-types';
+import { NodeConfig as INodeConfig, NodeOptions } from '@getcircuit/amplitude-analytics-types';
 
 import { NodeConfig } from '../../src/config';
 

@@ -8,7 +8,7 @@ import {
   Plugin,
   Revenue,
   Result,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import {
   createGroupIdentifyEvent,
   createIdentifyEvent,

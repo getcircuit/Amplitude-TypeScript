@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import * as amplitude from '@amplitude/analytics-browser';
+import * as amplitude from '@getcircuit/amplitude-analytics-browser';
 
 /**
  * Start by calling amplitude.init(). This must be done before any event tracking

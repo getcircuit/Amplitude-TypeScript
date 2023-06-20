@@ -1,5 +1,5 @@
-import { MemoryStorage } from '@amplitude/analytics-core';
-import { ReactNativeConfig as IReactNativeConfig, ReactNativeOptions, UserSession } from '@amplitude/analytics-types';
+import { MemoryStorage } from '@getcircuit/amplitude-analytics-core';
+import { ReactNativeConfig as IReactNativeConfig, ReactNativeOptions, UserSession } from '@getcircuit/amplitude-analytics-types';
 
 import { ReactNativeConfig } from '../../src/config';
 

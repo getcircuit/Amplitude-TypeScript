@@ -25,7 +25,7 @@ import {
   ClickIdParameters,
   ReferrerParameters,
   UTMParameters,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 
 export class CampaignParser implements ICampaignParser {
   async parse(): Promise<Campaign> {

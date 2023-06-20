@@ -1,18 +1,18 @@
 import { AmplitudeBrowser } from '../src/browser-client';
-import * as core from '@amplitude/analytics-core';
+import * as core from '@getcircuit/amplitude-analytics-core';
 import * as Config from '../src/config';
 import * as CookieMigration from '../src/cookie-migration';
-import { UserSession } from '@amplitude/analytics-types';
+import { UserSession } from '@getcircuit/amplitude-analytics-types';
 import {
   CookieStorage,
   FetchTransport,
   getAnalyticsConnector,
   getCookieName,
-} from '@amplitude/analytics-client-common';
+} from '@getcircuit/amplitude-analytics-client-common';
 import * as SnippetHelper from '../src/utils/snippet-helper';
 import * as fileDownloadTracking from '../src/plugins/file-download-tracking';
 import * as formInteractionTracking from '../src/plugins/form-interaction-tracking';
-import * as webAttributionPlugin from '@amplitude/plugin-web-attribution-browser';
+import * as webAttributionPlugin from '@getcircuit/amplitude-plugin-web-attribution-browser';
 
 describe('browser-client', () => {
   let apiKey = '';

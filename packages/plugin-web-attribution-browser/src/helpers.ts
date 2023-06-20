@@ -1,6 +1,6 @@
-import { BASE_CAMPAIGN } from '@amplitude/analytics-client-common';
-import { AMPLITUDE_PREFIX, createIdentifyEvent, Identify } from '@amplitude/analytics-core';
-import { Campaign } from '@amplitude/analytics-types';
+import { BASE_CAMPAIGN } from '@getcircuit/amplitude-analytics-client-common';
+import { AMPLITUDE_PREFIX, createIdentifyEvent, Identify } from '@getcircuit/amplitude-analytics-core';
+import { Campaign } from '@getcircuit/amplitude-analytics-types';
 import { Options } from './typings/web-attribution';
 
 export const getStorageKey = (apiKey: string, postKey = '', limit = 10) => {

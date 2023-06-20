@@ -30,7 +30,7 @@ This plugin works on top of Amplitude Browser SDK and adds web attribution track
 * `@amplitude/plugin-web-attribution-browser`
 
 ```typescript
-import { webAttributionPlugin } from '@amplitude/plugin-web-attribution-browser';
+import { webAttributionPlugin } from '@getcircuit/amplitude-plugin-web-attribution-browser';
 ```
 
 ### 2. Instantiate page view plugin

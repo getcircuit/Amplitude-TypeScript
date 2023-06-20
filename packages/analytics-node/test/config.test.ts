@@ -1,6 +1,6 @@
 import * as Config from '../src/config';
-import * as core from '@amplitude/analytics-core';
-import { LogLevel } from '@amplitude/analytics-types';
+import * as core from '@getcircuit/amplitude-analytics-core';
+import { LogLevel } from '@getcircuit/amplitude-analytics-types';
 import { Http } from '../src/transports/http';
 
 describe('config', () => {

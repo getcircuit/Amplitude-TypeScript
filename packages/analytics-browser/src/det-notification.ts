@@ -3,8 +3,8 @@ import {
   isFileDownloadTrackingEnabled,
   isFormInteractionTrackingEnabled,
   isPageViewTrackingEnabled,
-} from '@amplitude/analytics-client-common';
-import { BrowserConfig, LogLevel } from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-client-common';
+import { BrowserConfig, LogLevel } from '@getcircuit/amplitude-analytics-types';
 
 let notified = false;
 

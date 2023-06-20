@@ -1,9 +1,9 @@
 import * as Config from '../src/config';
 import * as LocalStorageModule from '../src/storage/local-storage';
-import * as core from '@amplitude/analytics-core';
-import { LogLevel, Storage, UserSession } from '@amplitude/analytics-types';
-import * as BrowserUtils from '@amplitude/analytics-client-common';
-import { getCookieName, FetchTransport } from '@amplitude/analytics-client-common';
+import * as core from '@getcircuit/amplitude-analytics-core';
+import { LogLevel, Storage, UserSession } from '@getcircuit/amplitude-analytics-types';
+import * as BrowserUtils from '@getcircuit/amplitude-analytics-client-common';
+import { getCookieName, FetchTransport } from '@getcircuit/amplitude-analytics-client-common';
 import { isWeb } from '../src/utils/platform';
 import { uuidPattern } from './helpers/constants';
 

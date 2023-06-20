@@ -5,8 +5,8 @@ import {
   identify,
   init,
   track,
-} from '@amplitude/analytics-react-native';
-import {LogLevel} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-react-native';
+import {LogLevel} from '@getcircuit/amplitude-analytics-types';
 
 export default function App() {
   useEffect(() => {

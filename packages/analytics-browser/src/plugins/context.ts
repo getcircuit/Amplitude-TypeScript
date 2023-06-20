@@ -1,12 +1,12 @@
-import { BeforePlugin, BrowserConfig, Event } from '@amplitude/analytics-types';
-import { UUID } from '@amplitude/analytics-core';
-import { getLanguage } from '@amplitude/analytics-client-common';
+import { BeforePlugin, BrowserConfig, Event } from '@getcircuit/amplitude-analytics-types';
+import { UUID } from '@getcircuit/amplitude-analytics-core';
+import { getLanguage } from '@getcircuit/amplitude-analytics-client-common';
 import { VERSION } from '../version';
 
 const BROWSER_PLATFORM = 'Web';
 const IP_ADDRESS = '$remote';
 export class Context implements BeforePlugin {
-  name = '@amplitude/plugin-context-browser';
+  name = '@getcircuit/amplitude-plugin-context-browser';
   type = 'before' as const;
 
   // this.config is defined in setup() which will always be called first

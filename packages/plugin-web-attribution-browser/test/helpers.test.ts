@@ -1,4 +1,4 @@
-import { BASE_CAMPAIGN } from '@amplitude/analytics-client-common';
+import { BASE_CAMPAIGN } from '@getcircuit/amplitude-analytics-client-common';
 import {
   getStorageKey,
   isNewCampaign,

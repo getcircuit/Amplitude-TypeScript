@@ -1,5 +1,5 @@
-import { createInstance } from '@amplitude/analytics-browser';
-import { MemoryStorage, UUID } from '@amplitude/analytics-core';
+import { createInstance } from '@getcircuit/amplitude-analytics-browser';
+import { MemoryStorage, UUID } from '@getcircuit/amplitude-analytics-core';
 import { default as nock } from 'nock';
 import { path, url } from './constants';
 import { success } from './responses';

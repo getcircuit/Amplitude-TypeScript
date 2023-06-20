@@ -8,7 +8,7 @@ import {
   EventCallback,
   Plugin,
   Result,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { buildResult } from './utils/result-builder';
 import { UUID } from './utils/uuid';
 

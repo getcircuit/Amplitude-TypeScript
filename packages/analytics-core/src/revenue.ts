@@ -3,7 +3,7 @@ import {
   RevenueEventProperties,
   Revenue as IRevenue,
   ValidPropertyType,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { isValidObject } from './utils/valid-properties';
 
 export class Revenue implements IRevenue {

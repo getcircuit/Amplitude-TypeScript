@@ -8,7 +8,7 @@ import {
   Revenue,
   RevenueEvent,
   EventOptions,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { Identify } from '../identify';
 
 export const createTrackEvent = (

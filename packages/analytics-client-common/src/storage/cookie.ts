@@ -1,4 +1,4 @@
-import { Storage, CookieStorageOptions } from '@amplitude/analytics-types';
+import { Storage, CookieStorageOptions } from '@getcircuit/amplitude-analytics-types';
 import { getGlobalScope } from '../global-scope';
 
 export class CookieStorage<T> implements Storage<T> {

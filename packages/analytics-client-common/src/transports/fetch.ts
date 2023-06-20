@@ -1,5 +1,5 @@
-import { BaseTransport } from '@amplitude/analytics-core';
-import { Payload, Response, Transport } from '@amplitude/analytics-types';
+import { BaseTransport } from '@getcircuit/amplitude-analytics-core';
+import { Payload, Response, Transport } from '@getcircuit/amplitude-analytics-types';
 
 export class FetchTransport extends BaseTransport implements Transport {
   async send(serverUrl: string, payload: Payload): Promise<Response | null> {

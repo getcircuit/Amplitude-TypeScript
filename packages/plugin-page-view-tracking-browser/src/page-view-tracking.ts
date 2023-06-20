@@ -1,4 +1,4 @@
-import { CampaignParser, getGlobalScope } from '@amplitude/analytics-client-common';
+import { CampaignParser, getGlobalScope } from '@getcircuit/amplitude-analytics-client-common';
 import {
   BrowserClient,
   BrowserConfig,
@@ -7,8 +7,8 @@ import {
   IdentifyOperation,
   IdentifyUserProperties,
   Logger,
-} from '@amplitude/analytics-types';
-import { BASE_CAMPAIGN } from '@amplitude/analytics-client-common';
+} from '@getcircuit/amplitude-analytics-types';
+import { BASE_CAMPAIGN } from '@getcircuit/amplitude-analytics-client-common';
 import { CreatePageViewTrackingPlugin, Options } from './typings/page-view-tracking';
 import { omitUndefined } from './utils';
 
@@ -53,7 +53,7 @@ export const pageViewTrackingPlugin: CreatePageViewTrackingPlugin = (options: Op
   };
 
   const plugin: EnrichmentPlugin = {
-    name: '@amplitude/plugin-page-view-tracking-browser',
+    name: '@getcircuit/amplitude-plugin-page-view-tracking-browser',
     type: 'enrichment',
 
     setup: async (config: BrowserConfig, client: BrowserClient) => {

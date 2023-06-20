@@ -83,7 +83,7 @@ interface Client extends CoreClient {
    * With an undefined userId and a completely new deviceId, the current user would appear as a brand new user in dashboard.
    *
    * ```typescript
-   * import { reset } from '@amplitude/analytics-browser';
+   * import { reset } from '@getcircuit/amplitude-analytics-browser';
    *
    * reset();
    * ```

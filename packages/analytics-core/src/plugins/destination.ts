@@ -10,7 +10,7 @@ import {
   Result,
   Status,
   SuccessResponse,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import {
   INVALID_API_KEY,
   MAX_RETRIES_EXCEEDED_MESSAGE,

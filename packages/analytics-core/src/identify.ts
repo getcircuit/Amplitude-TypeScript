@@ -3,7 +3,7 @@ import {
   IdentifyUserProperties,
   ValidPropertyType,
   Identify as IIdentify,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { UNSET_VALUE } from './constants';
 import { isValidProperties } from './utils/valid-properties';
 

@@ -1,5 +1,5 @@
-import { NodeOptions, NodeConfig as INodeConfig } from '@amplitude/analytics-types';
-import { Config } from '@amplitude/analytics-core';
+import { NodeOptions, NodeConfig as INodeConfig } from '@getcircuit/amplitude-analytics-types';
+import { Config } from '@getcircuit/amplitude-analytics-core';
 import { Http } from './transports/http';
 
 export class NodeConfig extends Config implements INodeConfig {

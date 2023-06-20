@@ -1,8 +1,8 @@
-import { createInstance } from '@amplitude/analytics-browser';
-import { Logger, UUID } from '@amplitude/analytics-core';
-import { BrowserConfig, LogLevel } from '@amplitude/analytics-types';
+import { createInstance } from '@getcircuit/amplitude-analytics-browser';
+import { Logger, UUID } from '@getcircuit/amplitude-analytics-core';
+import { BrowserConfig, LogLevel } from '@getcircuit/amplitude-analytics-types';
 import { pageViewTrackingPlugin, shouldTrackHistoryPageView } from '../src/page-view-tracking';
-import { CookieStorage, FetchTransport } from '@amplitude/analytics-client-common';
+import { CookieStorage, FetchTransport } from '@getcircuit/amplitude-analytics-client-common';
 
 describe('pageViewTrackingPlugin', () => {
   const mockConfig: BrowserConfig = {

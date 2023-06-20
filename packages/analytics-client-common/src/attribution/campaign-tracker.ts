@@ -1,4 +1,4 @@
-import { createIdentifyEvent, Identify } from '@amplitude/analytics-core';
+import { createIdentifyEvent, Identify } from '@getcircuit/amplitude-analytics-core';
 import {
   Storage,
   Campaign,
@@ -7,7 +7,7 @@ import {
   CampaignTrackFunction,
   CampaignTrackerOptions,
   BaseEvent,
-} from '@amplitude/analytics-types';
+} from '@getcircuit/amplitude-analytics-types';
 import { getCookieName as getStorageKey } from '../cookie-name';
 import { CampaignParser } from './campaign-parser';
 import { BASE_CAMPAIGN, EMPTY_VALUE, MKTG } from './constants';

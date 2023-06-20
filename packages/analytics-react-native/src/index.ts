@@ -21,8 +21,8 @@ export const {
   setUserId,
   track,
 } = client;
-export { Revenue, Identify } from '@amplitude/analytics-core';
+export { Revenue, Identify } from '@getcircuit/amplitude-analytics-core';
 // Hack - react-native apps have trouble with:
-// export * as Types from '@amplitude/analytics-types
-import * as Types from '@amplitude/analytics-types';
+// export * as Types from '@getcircuit/amplitude-analytics-types
+import * as Types from '@getcircuit/amplitude-analytics-types';
 export { Types };

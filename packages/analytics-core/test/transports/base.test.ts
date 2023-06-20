@@ -1,4 +1,4 @@
-import { Status } from '@amplitude/analytics-types';
+import { Status } from '@getcircuit/amplitude-analytics-types';
 import { BaseTransport } from '../../src/transports/base';
 
 describe('BaseTransport', () => {
